@@ -4,7 +4,5 @@ localhost ansible_connection=local
 localhost
 
 [Server:vars]
-ansible_python_interpreter= /usr/bin/python
-ansible_user=idriss
-ansible_become_method=sudo
-ansible_become=yes
+ansible_python_interpreter=/usr/bin/python
+ansible_user=root
