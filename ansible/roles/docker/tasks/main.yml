@@ -3,9 +3,9 @@
   docker_image:
     name: devops
     build:
-     path: /var/lib/jenkins/workspace/CD-Pipeline/
+     path: /var/lib/jenkins/workspace/CD-Pipeline/Dockerfile
      pull: no
-    source: build
+     source: build
     state: present
     force_source: true
 - name: run container docker
